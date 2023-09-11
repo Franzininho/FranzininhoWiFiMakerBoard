@@ -1,0 +1,21 @@
+# Palavras-chave personalizadas para a biblioteca FranzininhoWiFiMakerBoard
+# Syntax coloring
+
+# Palavras-chave Gerais
+keyword1    FranzininhoWiFiMakerBoard
+
+# Funções
+function    setRGBColor
+function    turnOffRGB
+function    playTone
+function    stopTone
+function    attachButtonInterrupts
+function    readTouch
+function    initializeMatrix
+function    setMatrixPixel
+function    updateMatrix
+function    readLDR
+
+# Tipos de dados
+dataType    FranzininhoWiFiMakerBoard
+
