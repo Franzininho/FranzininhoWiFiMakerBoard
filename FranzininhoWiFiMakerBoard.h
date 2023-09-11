@@ -2,6 +2,7 @@
 #define FRANZININHO_WIFI_MAKER_BOARD_H
 
 #include <Arduino.h>
+#include <pitches.h>
 
 class FranzininhoWiFiMakerBoard {
 public:
@@ -13,10 +14,12 @@ public:
 
     // Função para o Buzzer
     void playTone(int frequency, int duration);
+    void playSiren();
     void stopTone();
 
     // Funções para as teclas
-    void attachButtonInterrupts(void (*onButtonA)(), void (*onButtonB)());
+    bool readButtonA();
+    bool readButtonB();
 
     // Funções para as entradas de touch resistivo
     int readTouch(int pin);
